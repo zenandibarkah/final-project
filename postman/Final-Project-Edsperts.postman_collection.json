@@ -14,12 +14,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/artists",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/artists",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -35,12 +33,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/artists/1",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/artists/1",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -66,12 +62,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/artists/",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/artists/",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -97,12 +91,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/artists/batch",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/artists/batch",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -119,17 +111,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/artists/5",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/artists/4",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
 								"artists",
-								"5"
+								"4"
 							]
 						}
 					},
@@ -150,17 +140,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/artists/6",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/artists/4",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
 								"artists",
-								"6"
+								"4"
 							]
 						}
 					},
@@ -177,12 +165,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/albums?artist_id=1",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/albums?artist_id=1",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -204,12 +190,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/albums",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/albums",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -225,12 +209,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/albums/1",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/albums/1",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -248,7 +230,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"title\": \"GAJAH\",\r\n    \"price\": 35000,\r\n    \"Artist\": {\r\n        \"artist_id\": 1\r\n    }\r\n}",
+							"raw": "{\r\n    \"title\": \"MANUSIA\",\r\n    \"price\": 40000,\r\n    \"Artist\": {\r\n        \"artist_id\": 1\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -256,12 +238,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/albums",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/albums",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -286,12 +266,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/albums/5",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/albums/5",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -308,12 +286,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/albums/7",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/albums/7",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -335,12 +311,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/songs",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/songs",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -356,12 +330,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/songs?album_id=2",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/songs?album_id=2",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -383,12 +355,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/songs?artist_id=1",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/songs?artist_id=1",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -410,17 +380,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/songs/15",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/songs/13",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
 								"songs",
-								"15"
+								"13"
 							]
 						}
 					},
@@ -441,12 +409,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/songs",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/songs",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -471,12 +437,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/songs/15",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/songs/15",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
@@ -493,12 +457,10 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/songs/15",
-							"protocol": "http",
+							"raw": "{{URL}}/api/v1/songs/15",
 							"host": [
-								"localhost"
+								"{{URL}}"
 							],
-							"port": "4000",
 							"path": [
 								"api",
 								"v1",
